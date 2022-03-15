@@ -1,6 +1,6 @@
 FROM php:7.3-apache
 
-COPY baidutest.html /var/www/html/
+COPY index.php /var/www/html/
 
 RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
 
